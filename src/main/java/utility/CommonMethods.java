@@ -8,7 +8,6 @@ import java.util.TimeZone;
 
 import bsh.ParseException;
 import io.restassured.path.json.*;
-import io.restassured.path.xml.*;
 import io.restassured.response.*;
 
 public class CommonMethods {
