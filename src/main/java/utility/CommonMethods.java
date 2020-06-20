@@ -17,12 +17,7 @@ public class CommonMethods {
 	String SessionResource="/rest/auth/1/session";
 	
 	
-	// Convert raw Response ino xml data 
-		public XmlPath rawToXmlData(Response res) {
-			String response = res.asString();
-			XmlPath x = new XmlPath(response);
-			return x;
-		}
+	
 		public JsonPath rawToJsonData(Response res) {
 //			String response = res.asString();
 			JsonPath js = res.jsonPath();
